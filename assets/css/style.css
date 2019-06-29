@@ -1,18 +1,32 @@
+@font-face {
+  src:url(fonts/Darkmondayblack.ttf );
+  font-family: Darkmondayblack;
+}
 body {
   background-color: rgb(46, 4, 4);
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: 'Finger Paint', cursive;
   color:white;
   height:100%;
   text-align:center;
-  font-size:18px;
+  font-size:30px;
 }
 
 h1 {
-  background-color: black;
-  color:white;
+  font-size: 200%;
+  margin:20px;
+  font-family: 'Nosifer', cursive;
+
 }
 canvas { 
-  height: 200px;
-  width: 300px;
-  border:2px solid white;
+  height: 300px;
+  width: 400px;
+  border:3px solid white;
+}
+@media screen and (max-width:600px){
+  body {
+    font-size: 20px
+  }
+  h1{
+    font-size: 100%;
+  }
 }
